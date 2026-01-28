@@ -1,0 +1,170 @@
+{
+  "identity": {
+    "name": "E1",
+    "mission": "Create a habit and expense tracker that feels like a lifestyle accessory, not a spreadsheet. Fusion of 'Soft Utility' and 'Vibrant Play'.",
+    "principles": [
+      "Fusion over Imitation: Mix productivity with 'cozy gaming' aesthetics.",
+      "Emotion First: Tracking a habit should feel like a reward.",
+      "Content is King: Data visualization is art.",
+      "Zoom In: Focus on the 'Streak' and 'Savings' numbers.",
+      "Negative Space: Don't clutter; let the progress breathe."
+    ]
+  },
+  "typography": {
+    "fonts": {
+      "heading": "Outfit",
+      "body": "DM Sans",
+      "mono": "JetBrains Mono"
+    },
+    "imports": [
+      "@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=DM+Sans:opsz,wght@9..40,400;500;700&family=JetBrains+Mono:wght@400;500&display=swap');"
+    ],
+    "usage": {
+      "h1": "font-heading font-bold text-5xl md:text-7xl tracking-tight leading-none",
+      "h2": "font-heading font-semibold text-3xl md:text-5xl tracking-tight",
+      "h3": "font-heading font-medium text-2xl md:text-3xl",
+      "body": "font-body text-base md:text-lg leading-relaxed text-muted-foreground",
+      "label": "font-mono text-xs uppercase tracking-widest text-muted-foreground/80",
+      "number": "font-heading font-bold tracking-tighter"
+    }
+  },
+  "colors": {
+    "theme_strategy": "Vibrant Play + Soft Utility",
+    "light": {
+      "background": "#F8FAFC",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "card_foreground": "#1E293B",
+      "primary": "#4F46E5",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#10B981",
+      "secondary_foreground": "#FFFFFF",
+      "accent": "#F59E0B",
+      "muted": "#F1F5F9",
+      "muted_foreground": "#64748B",
+      "border": "#E2E8F0"
+    },
+    "dark": {
+      "background": "#020617",
+      "foreground": "#F8FAFC",
+      "card": "#0F172A",
+      "card_foreground": "#E2E8F0",
+      "primary": "#818CF8",
+      "primary_foreground": "#0F172A",
+      "secondary": "#34D399",
+      "secondary_foreground": "#020617",
+      "accent": "#FBBF24",
+      "muted": "#1E293B",
+      "muted_foreground": "#94A3B8",
+      "border": "#1E293B"
+    },
+    "special": {
+      "success": "#10B981",
+      "warning": "#F59E0B",
+      "error": "#EF4444",
+      "glass_bg": "rgba(255, 255, 255, 0.7)",
+      "glass_border": "rgba(255, 255, 255, 0.5)",
+      "glass_bg_dark": "rgba(15, 23, 42, 0.6)",
+      "glass_border_dark": "rgba(255, 255, 255, 0.1)"
+    }
+  },
+  "layout": {
+    "spacing_scale": "2x Standard (p-8, p-12, gap-8)",
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "grid_strategy": "Bento Grid Mode A (Tetris)",
+    "modes": {
+      "dashboard": "grid grid-cols-1 md:grid-cols-4 gap-6",
+      "marketing": "grid grid-cols-1 md:grid-cols-12 gap-8"
+    },
+    "rules": [
+      "Never center text by default (except Hero)",
+      "Use negative space to separate sections, not lines",
+      "Mobile images max-height: 80vh"
+    ]
+  },
+  "components": {
+    "buttons": {
+      "primary": "rounded-full px-8 py-6 font-heading font-semibold shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300",
+      "secondary": "rounded-full px-8 py-6 bg-muted text-muted-foreground hover:bg-muted/80 transition-all",
+      "ghost": "rounded-full px-6 hover:bg-accent/10 hover:text-accent transition-colors"
+    },
+    "cards": {
+      "default": "rounded-3xl border border-border/50 bg-card/50 backdrop-blur-xl shadow-sm hover:shadow-md transition-all duration-300",
+      "interactive": "cursor-pointer hover:border-primary/50 hover:ring-2 hover:ring-primary/20 group",
+      "glass": "bg-white/10 backdrop-blur-md border border-white/20 shadow-xl"
+    },
+    "inputs": {
+      "style": "rounded-2xl border-border/50 bg-muted/30 px-4 py-3 focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all",
+      "label_behavior": "floating or uppercase mono label above"
+    },
+    "visual_enhancers": [
+      "Noise Texture Overlay (opacity 0.03)",
+      "Gradient Blobs (blurred 100px) in background",
+      "Micro-interactions on all clicks"
+    ]
+  },
+  "assets": {
+    "images": {
+      "hero_bg": {
+        "url": "https://images.unsplash.com/photo-1705302188426-2d8f8ba6552b?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Sunlight streaming through window, productive morning vibe",
+        "usage": "Landing page hero background with overlay"
+      },
+      "features_context": {
+        "url": "https://images.unsplash.com/photo-1760278041388-46b2721e8b8a?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Minimalist modern desk setup",
+        "usage": "Features section, showing workspace context"
+      },
+      "premium_abstract": {
+        "url": "https://images.unsplash.com/photo-1757737488846-701262edc5bd?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Colorful abstract origami shapes",
+        "usage": "Premium subscription card background or Analytics header"
+      },
+      "auth_side": {
+        "url": "https://images.unsplash.com/photo-1740263700988-9d280d9a2ca5?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Potted plants on shelf",
+        "usage": "Side image for Login/Signup pages"
+      }
+    },
+    "icons": {
+      "library": "lucide-react",
+      "style": "Stroke width 1.5px, rounded corners"
+    }
+  },
+  "motion": {
+    "library": "framer-motion",
+    "transitions": {
+      "page": "initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }} transition={{ duration: 0.4, ease: 'easeOut' }}",
+      "hover": "whileHover={{ y: -4, scale: 1.02 }} whileTap={{ scale: 0.98 }}",
+      "stagger": "variants={{ hidden: { opacity: 0 }, show: { opacity: 1, transition: { staggerChildren: 0.1 } } }}"
+    },
+    "micro_interactions": [
+      "Confetti explosion on habit completion",
+      "Number counter animation for expenses",
+      "Smooth progress bar filling"
+    ]
+  },
+  "accessibility": {
+    "rules": [
+      "Text contrast ratio > 4.5:1",
+      "Focus rings must be visible",
+      "All interactive elements need aria-labels",
+      "Support prefers-reduced-motion"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "1. INSTALL FONTS: Add the Google Fonts import to /app/frontend/src/index.css immediately.",
+    "2. CONFIGURE TAILWIND: Update tailwind.config.js with the colors and font families defined above.",
+    "3. SETUP SHADCN: Ensure shadcn components use the 'rounded-3xl' and 'rounded-full' styles by default.",
+    "4. CREATE LAYOUTS: Use the 'Bento Grid' strategy for the Dashboard. Do not make a simple list.",
+    "5. USE IMAGES: Use the provided Unsplash URLs. Do not use placeholders.",
+    "6. ADD NOISE: Create a global 'Noise' component that overlays the entire app with 3% opacity grain.",
+    "7. DATA-TESTID: Add data-testid to every button, input, and card."
+  ],
+  "universal_guidelines": [
+    "Avoid 'AI Slop': No generic gradients, no centered text blocks without purpose.",
+    "Dark Mode is not just black: Use Slate-950 and rich grays.",
+    "Glassmorphism: Use it for the 'sticky' elements (nav, floating actions).",
+    "Spacing: If you think it's enough padding, double it."
+  ]
+}
