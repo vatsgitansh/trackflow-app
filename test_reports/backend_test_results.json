@@ -1,0 +1,82 @@
+{
+  "summary": {
+    "total_tests": 12,
+    "passed_tests": 12,
+    "success_rate": "100.0%",
+    "timestamp": "2026-01-28T20:08:37.649754"
+  },
+  "test_results": [
+    {
+      "test": "User Signup",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-01-28T20:08:28.400224"
+    },
+    {
+      "test": "Login Test - Signup",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-01-28T20:08:29.478011"
+    },
+    {
+      "test": "User Login",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-01-28T20:08:30.593971"
+    },
+    {
+      "test": "Get User Profile",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-01-28T20:08:31.442154"
+    },
+    {
+      "test": "Create Habit",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-01-28T20:08:32.086467"
+    },
+    {
+      "test": "Get Habits",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-01-28T20:08:32.928998"
+    },
+    {
+      "test": "Complete Habit",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-01-28T20:08:33.823952"
+    },
+    {
+      "test": "Delete Habit",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-01-28T20:08:34.471418"
+    },
+    {
+      "test": "Create Expense",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-01-28T20:08:35.347855"
+    },
+    {
+      "test": "Get Expenses",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-01-28T20:08:36.181249"
+    },
+    {
+      "test": "Delete Expense",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-01-28T20:08:37.016604"
+    },
+    {
+      "test": "Get User Stats",
+      "success": true,
+      "details": "Status: 200",
+      "timestamp": "2026-01-28T20:08:37.648924"
+    }
+  ]
+}
